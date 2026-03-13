@@ -38,6 +38,3 @@ jobs:
 
       - name: Uruchomienie testów
         run: pytest
-
-build.yml
-1 KB
