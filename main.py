@@ -6,6 +6,6 @@ app = FastAPI()
 def hello():
     return {"message":"spoko wiadomosc i tyle"}
 
-@app.get("/add/{a}{b}")
+@app.get("/add/{a}/{b}")
 def add(a:int,b:int):
     return{"result":a+b}
